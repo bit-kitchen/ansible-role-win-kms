@@ -1,0 +1,7 @@
+#!/usr/bin/env ansible-playbook
+---
+- hosts: windows
+  gather_facts: no
+  roles:
+    - name: ../..
+      kms_server: kms.example.com

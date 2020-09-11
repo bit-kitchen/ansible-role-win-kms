@@ -1,0 +1,5 @@
+---
+- name: Activate Windows
+  win_command: cscript slmgr.vbs /ato
+  args:
+    chdir: C:\Windows\system32

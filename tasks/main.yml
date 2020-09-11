@@ -1,0 +1,7 @@
+---
+- name: Set KMS server
+  win_command: cscript slmgr.vbs /skms {{ kms_server }}
+  args:
+    chdir: C:\Windows\system32
+  notify: Activate Windows
+  when: kms_server is defined

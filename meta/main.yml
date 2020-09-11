@@ -1,0 +1,19 @@
+galaxy_info:
+  author: bit_kitchen
+  role_name: win_kms
+
+  description: Set KMS server to use and activate Windows.
+  license: MIT
+
+  min_ansible_version: 2.4
+
+  # https://galaxy.ansible.com/api/v1/platforms/
+  platforms:
+  - name: Windows
+    versions:
+    - all
+
+  galaxy_tags:
+  - kms
+
+dependencies: []

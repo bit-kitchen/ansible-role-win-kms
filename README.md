@@ -1,0 +1,43 @@
+ansible-role-win-kms
+====================
+
+Set the name and/or the port of the KMS server to use and activate Windows.
+
+    ansible-galaxy install bit_kitchen.win_kms
+
+Requirements
+------------
+
+None.
+
+Role Variables
+--------------
+
+Variable   | Default   | Comment
+---------- | --------- | -------
+kms_server | undefined | Name and/or the port for the KMS computer the target machine will use. <br> IPv6 address must be specified in the format `[hostname]:port`.
+
+Dependencies
+------------
+
+None.
+
+Example Playbook
+----------------
+
+```yml
+- hosts: windows
+  roles:
+  - name: bit_kitchen.win_kms
+    kms_server: kms.example.com
+```
+
+License
+-------
+
+[MIT](LICENSE)
+
+Author Information
+------------------
+
+[bit.kitchen](https://github.com/bit-kitchen)
