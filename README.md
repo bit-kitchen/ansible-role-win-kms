@@ -1,6 +1,9 @@
 ansible-role-win-kms
 ====================
 
+[![Ansible Role: bit_kitchen.win_kms](https://img.shields.io/ansible/role/50686.svg)](https://galaxy.ansible.com/bit_kitchen/win_kms)
+[![Build Status](https://travis-ci.org/bit-kitchen/ansible-role-win-kms.svg?branch=master)](https://travis-ci.org/bit-kitchen/ansible-role-win-kms)
+
 Set the name and/or the port of the KMS server to use and activate Windows.
 
     ansible-galaxy install bit_kitchen.win_kms
