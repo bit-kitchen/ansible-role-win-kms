@@ -2,7 +2,7 @@ galaxy_info:
   author: bit_kitchen
   role_name: win_kms
 
-  description: Set KMS server to use and activate Windows.
+  description: Set KMS host to use and activate Windows.
   license: MIT
 
   min_ansible_version: 2.4
